@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { products } from "../Utils/Data.jsx";
+import { products } from "../utils/Data";
 import ProductCard from "../components/ProductCard";
 import empty from "../assets/empty.jpg";
 import { FaFilter } from "react-icons/fa6";
