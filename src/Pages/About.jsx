@@ -83,7 +83,7 @@ const About = () => {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your neighborhood grocery store committed to providing fresh,
-            quality products since 2005.
+            quality products since 2025.
           </p>
         </motion.div>
 
@@ -102,7 +102,7 @@ const About = () => {
               selection of everyday essentials at fair prices.
             </motion.p>
             <motion.p variants={item} className="mb-4 text-gray-600">
-              Founded in 2005 by the Johnson family, our first store opened in
+              Founded in 2025 by the Johnson family, our first store opened in
               Grocery City with just 15 employees. Today, we've grown to 25
               locations across the state, but our commitment to quality and
               community remains unchanged.

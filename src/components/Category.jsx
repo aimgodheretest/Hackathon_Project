@@ -30,21 +30,7 @@ const Category = () => {
     },
   };
 
-  //   const item = {
-  //     hidden: { y: 20, opacity: 0 },
-  //     visible: {
-  //       y: 0,
-  //       opacity: 1,
-  //       transition: {
-  //         duration: 0.5,
-  //         ease: "easeOut",
-  //       },
-  //     },
-  //     hover: {
-  //       y: -5,
-  //       transition: { duration: 0.2 },
-  //     },
-  //   };
+  
 
   const title = {
     hidden: { x: -20, opacity: 0 },
