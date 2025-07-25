@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../utils/Data";
+import { products } from "../utils/Data.jsx";
 import ProductCard from "./ProductCard";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
