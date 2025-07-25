@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/Logo.png";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, User } from "lucide-react"; // Added User icon
 import { Link } from "react-router-dom";
 import CartComp from "./CartComp";
 import { useSelector } from "react-redux";
@@ -135,6 +135,20 @@ const Navbar = () => {
                 whileHover="hover"
               >
                 Contact
+              </motion.li>
+            </Link>
+
+            {/* Login Button - Added this section */}
+            <Link to={"/login"}>
+              <motion.li
+                variants={navItem}
+                initial="hidden"
+                animate="visible"
+                whileHover="hover"
+                className="flex items-center gap-1"
+              >
+                <User className="w-5 h-5" />
+                Login
               </motion.li>
             </Link>
           </ul>
